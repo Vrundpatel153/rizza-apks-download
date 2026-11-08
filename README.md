@@ -18,25 +18,31 @@ Or browse via [GitHub Releases](https://github.com/Vrundpatel153/rizza-apks-down
 
 | Version | File | Date | Size | Download Link | Highlights |
 |:---|:---|:---|:---|:---|:---|
-| **v1.2.0 (Latest)** | `rizza-app-v1.2.0.apk` | 2026-11-08 | 7.1 MB | [Download](https://github.com/Vrundpatel153/rizza-apks-download/raw/main/apks/rizza-app-v1.2.0.apk) | Complete Candidate Journey, Pixel-perfect Experience Chapter, Flexbox Layout |
+| **v1.6.1 (Latest)** | `rizza-app-v1.6.1.apk` | 2026-11-08 | 7.2 MB | [Download](https://github.com/Vrundpatel153/rizza-apks-download/raw/main/apks/rizza-app-v1.6.1.apk) | Zero-overlap CTA on wizards, Fix Marketing Manager boot trap, Candidate Profile Hub (Tab 4), 4-tab capsule navbar |
+| **v1.6.0** | `rizza-app-v1.6.0.apk` | 2026-11-08 | 7.2 MB | [Download](https://github.com/Vrundpatel153/rizza-apks-download/raw/main/apks/rizza-app-v1.6.0.apk) | Chapter 2-5 exact Figma/PDF design & true Obsidian OLED Black theme |
+| **v1.5.0** | `rizza-app-v1.5.0.apk` | 2026-11-08 | 7.2 MB | [Download](https://github.com/Vrundpatel153/rizza-apks-download/raw/main/apks/rizza-app-v1.5.0.apk) | High-contrast white UI, floating capsule navbar, guided tour, safe-area insets |
+| **v1.2.0** | `rizza-app-v1.2.0.apk` | 2026-11-08 | 7.1 MB | [Download](https://github.com/Vrundpatel153/rizza-apks-download/raw/main/apks/rizza-app-v1.2.0.apk) | Complete Candidate Journey, Pixel-perfect Experience Chapter, Flexbox Layout |
 | **v1.0.0** | `rizza-app-v1.0.0.apk` | 2026-11-06 | 10.0 MB | [Download](https://github.com/Vrundpatel153/rizza-apks-download/raw/main/apks/rizza-app-v1.0.0.apk) | Initial base build |
 
 > **Retention Policy**: Only the latest 10 builds are preserved. Older builds are automatically pruned when new releases are pushed.
 
 ---
 
-## 🌟 What's New in v1.2.0
+## 🌟 What's New in v1.6.1
 
-- **Pure Mobile Viewport**: Stripped all desktop emulator chassis, fake bezels, and mock status bars.
-- **Pixel-Matched Experience Chapter**:
-  - Chapter 2: Current Role selection with search & radio options.
-  - Chapter 3: Unified Company Picker with SVGs (Google, Microsoft, Amazon, Infosys, TCS), manual input, and tenure calendar picker.
-  - Chapter 4: Key Responsibilities with custom 5-limit multi-selection.
-  - Chapter 5: 2-column tools grid.
-- **Beyond the CV Hub**: Organic inward-curved portrait cards (`#F6C754`, `#DDD6FE`, `#FED7AA`) and light display typography.
-- **Personal Card (All 5 Questions)**: Strengths & weaknesses, 5-year outlook, 3 skills this year, failure learnings, hobbies.
-- **Rock-Solid Flexbox Layout**: Zero coordinate overlaps, zero clipped text, clean sticky bottom actions.
-- **Signed with APK Signature Schemes v1, v2 & v3** with full Android 7.0+ to Android 15 compatibility.
+- **Fixed Startup Trap**: App boots directly into Candidate Dashboard (Screen 24) or Welcome Splash (Screen 5) — never trapped on Screen 101 ("Marketing Manager" external job ad) on fresh launches or reboots.
+- **Zero Bottom Navbar Overlaps**: Scoped the modern floating capsule navbar strictly to the 4 main application hubs (`Home`, `Applications`, `Explore`, `Profile`). All 24 multi-step wizard screens (Screen 21 Profile Photo, Screen 20 Beyond CV Progress, Screen 17 Company Tenure, etc.) now have completely unobstructed, full-width "Continue" / "Submit" action buttons.
+- **Dedicated Candidate Profile & Settings Hub (Screen 29)**:
+  - 4th tab on the bottom capsule navbar.
+  - Candidate identity (`Priya Sharma`), verified badges, email, phone, CV download/update.
+  - Direct quick-links to Beyond the CV cards (Professional & Personal).
+  - One-tap switchers for Theme Mode (High Contrast Light / Obsidian OLED Black) and Employer/Admin Portal.
+- **Modern 4-Tab Android Capsule Navigation Bar**:
+  - Home (`Screen 24`)
+  - Applications (`Screen 25`)
+  - Explore (`Screen 28`)
+  - Profile (`Screen 29`)
+- **Signed with APK Signature Schemes v1, v2 & v3** with universal Android 7.0+ to Android 15 compatibility.
 
 ---
 
